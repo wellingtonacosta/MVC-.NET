@@ -4,13 +4,17 @@
     Layout = null;
 }
 
-<section>;
+<link rel="stylesheet" href="~/css/login.css" />
+
+<form action="/Login/Test" method="post">
+    <section
     <h1>Autenticação</h1>
-    <input type="text" name="email" value="" placeholder="username/e-mail"/>
-    <input type="password" name="password" value="" placeholder="password" />
+    <input type="text" name="email" value="@Model.Email" placeholder="username/e-mail"/>
+    <input type="password" name="password" value="@Model.Password" placeholder="password" />
     <a href="#">Esqueceu a senha?</a>
 
-    <button>Login</button>
+    <button type="submit">Login</button>
 
-    <label>Não tem conta?<a href="# ">Crie aqui</a> sa</label> 
-</section>
+    <label>Não tem conta?<a href="#">Crie aqui</a> </label>
+    </section>
+</form>

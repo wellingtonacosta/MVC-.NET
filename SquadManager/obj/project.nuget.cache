@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3/9DJPATiWbOuWip3V6/8cjo3UN3Fisw5yYiJleaFuflGhPMvslH9yRp0Yq6RAjom613GEgGzzL77udobExvZg==",
+  "dgSpecHash": "ptZI52+Gu0Dm0uC3koPXmsAaTlHWHjpXz2sVrtwH0uuwAGYmoHM2lZJU0hdvPOnvcSoA/6245fGmsEJ3+/SuhA==",
   "success": true,
   "projectFilePath": "/Users/wellingtonalvesdacosta/Projects/SquadManager/SquadManager/SquadManager.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/wellingtonalvesdacosta/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512"
+  ],
   "logs": []
 }

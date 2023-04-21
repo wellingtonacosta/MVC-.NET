@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P45Y+qdOMwHr/I2SwYzK9iD9Yt80lTp9UBhX7msz+VQ=",
+  "Hash": "Cj3Qdm+d3ZeU9O+tN4K+3enuUGafq6q8nk4AVBjtbY4=",
   "Source": "SquadManager",
   "BasePath": "_content/SquadManager",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/wellingtonalvesdacosta/Projects/SquadManager/SquadManager/obj/Debug/net7.0/scopedcss/projectbundle/SquadManager.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/wellingtonalvesdacosta/Projects/SquadManager/SquadManager/wwwroot/.DS_Store",
+      "SourceId": "SquadManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/wellingtonalvesdacosta/Projects/SquadManager/SquadManager/wwwroot/",
+      "BasePath": "_content/SquadManager",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/wellingtonalvesdacosta/Projects/SquadManager/SquadManager/wwwroot/css/login.css",
+      "SourceId": "SquadManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/wellingtonalvesdacosta/Projects/SquadManager/SquadManager/wwwroot/",
+      "BasePath": "_content/SquadManager",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/login.css"
     },
     {
       "Identity": "/Users/wellingtonalvesdacosta/Projects/SquadManager/SquadManager/wwwroot/css/site.css",
