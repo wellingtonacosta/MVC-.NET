@@ -9,22 +9,19 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
-    <None Remove="Views\Login\" />
-    <None Remove="Validator\" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
+
   <ItemGroup>
-    <Folder Include="Views\Login\" />
-    <Folder Include="Validator\" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\API\Common\Common.csproj">
+    <ProjectReference Include="Common\Common.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\API\API.csproj">
+    <ProjectReference Include="..\Repository\Repository.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Common\obj\Release\net7.0\Common.AssemblyInfo.cs" />
   </ItemGroup>
 </Project>
